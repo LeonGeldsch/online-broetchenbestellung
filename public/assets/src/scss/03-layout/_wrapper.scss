@@ -1,0 +1,14 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper--inner {
+  @extend .wrapper;
+  max-width: 1024px;
+}
+
+.wrapper--outer {
+  @extend .wrapper;
+  max-width: 1280px;
+}

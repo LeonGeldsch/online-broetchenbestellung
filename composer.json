@@ -1,0 +1,17 @@
+{
+    "name": "johninamillion/sae-wbd0921-5204-api",
+    "authors": [
+        {
+            "name": "johninamillion",
+            "email": "johninamio@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WBD5204\\": "src"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^5.4"
+    }
+}
