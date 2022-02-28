@@ -4,8 +4,11 @@ namespace WBD5204;
 
 use WBD5204\Controller\Error;
 
-final class API {
+header('Access-Control-Allow-Origin: http://localhost:3000');
+header('Access-Control-Allow-Headers: *');
 
+final class API {
+    
     const ERROR_CONTROLLER = "WBD5204\\Controller\\Error";
     const ERROR_METHOD = 'index';
 

@@ -70,7 +70,6 @@ final class OrderItems extends AbstractModel {
         foreach ( $orders as $index => $order ) {
 
             /** @var string $query */
-            //$query = 'SELECT order_items.id, order_items.amount FROM order_items WHERE order_items.order_id = :order_id CROSS JOIN products ON order_items.product_id = product.id;';
             $query = 'SELECT order_items.id, products.name, order_items.amount 
                       FROM order_items 
                       JOIN products 

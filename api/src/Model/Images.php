@@ -223,12 +223,12 @@ final class Images extends AbstractModel {
                 $errors[ 'image' ][] = 'Please upload an image with a valid type.';
             }
             // check if the image has a minimum height from 400px
-            if ( $image_height < 400 ) {
-                $errors[ 'image' ][] = 'Please upload an image with an minimum height of 400px.';
+            if ( $image_height < 100 ) {
+                $errors[ 'image' ][] = 'Please upload an image with an minimum height of 100px.';
             }
             // check if the image has a minimum width from 400px
-            if ( $image_width < 400 ) {
-                $errors[ 'image' ][] = 'Please upload an image with an minimum width of 400px.';
+            if ( $image_width < 100 ) {
+                $errors[ 'image' ][] = 'Please upload an image with an minimum width of 100px.';
             }
         }
 

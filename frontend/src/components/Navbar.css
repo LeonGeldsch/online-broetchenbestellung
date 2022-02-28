@@ -1,0 +1,25 @@
+.Main-Nav {
+    background-color: orangered;
+}
+
+.Main-Nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.Main-Nav ul li {
+    color: whitesmoke;
+    height: 100%;
+    display: flex;
+}
+
+.Main-Nav ul li:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.Main-Nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 20px;
+}
